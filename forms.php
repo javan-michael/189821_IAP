@@ -1,0 +1,18 @@
+<?php
+class forms{
+    public function signup(){
+        return "<form action='signup.php' method='post'>"
+                    <h2>Sign Up</h2>
+                    <label for='username'>Username:</label>
+                    <input type='text' id='username' name='username' required>
+
+                    <label for='email'>Email:</label>
+                    <input type='email' id='email' name='email' required>
+
+                    <label for='password'>Password:</label>
+                    <input type='password' id='password' name='password' required>
+
+                    <button type='submit'>Sign Up</button>
+                </form>";
+    }
+}
