@@ -1,11 +1,12 @@
 <?php
+// Creating a class
 class HelloWorld {
     public function greet() {
-        return "<h1>Hello World!</h1>";
+        return "<h1>Hello, ICS B!</h1>";
     }
 
     public function today() {
-        return "<p> Today is " . date('1') ."</p>";
+        return "<p>Today is " . date("l") . "</p>";
     }
 }
-$hello = new HelloWorld();
+?>

@@ -1,4 +1,9 @@
 <?php
-echo "Hello World\n";
-echo "Today is Monday";
+require 'classes.php';
+// Creating an instance of the class
+$hello = new HelloWorld();
+
+// Using the class methods
+print $hello->greet();
+print $hello->today();
 ?>
